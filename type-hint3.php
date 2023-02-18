@@ -5,7 +5,7 @@ class School
     {
         echo "<ul>";
         foreach ($names->Names() as $name) {
-            echo "<li>". $name . "</li>";
+         echo "<li>". $name . "</li>";
         }
         echo "</ul>";
     }
